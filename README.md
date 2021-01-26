@@ -32,9 +32,9 @@ We try three different parsing libraries: Applicative Regex Parsing, Attoparsec,
 
 For the 3 primary articles in the series, you can follow along with the code examples and try making changes. You can run the tests to see if you still get the correct results. Just take a look at the proper source module:
 
-* [Part 2](https://mmhaskell.com/parsing/regex) - [RegexParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/blob/src/RegexParser.hs)
-* [Part 3](https://mmhaskell.com/parsing/attoparsec) - [AttoParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/blob/src/AttoParser.hs)
-* [Part 4](https://mmhaskell.com/parsing/megaparsec) - [MegaParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/blob/src/MegaParser.hs)
+* [Part 2](https://mmhaskell.com/parsing/regex) - [RegexParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/src/RegexParser.hs)
+* [Part 3](https://mmhaskell.com/parsing/attoparsec) - [AttoParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/src/AttoParser.hs)
+* [Part 4](https://mmhaskell.com/parsing/megaparsec) - [MegaParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/src/MegaParser.hs)
 
 ## Extending this Project
 
