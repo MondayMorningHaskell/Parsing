@@ -4,11 +4,11 @@ Welcome to the companion Github repository for our [Parsing series](https://www.
 
 ## [Gherkin Syntax](https://www.mmhaskell.com/parsing/gherkin)
 
-Our overarching example for this series is [Gherkin Syntax](https://cucumber.io/docs/gherkin). This is a special syntax that allows us to describe a set of test behaviors for our program. We have a few example files you can observe in [this directory](https://github.com/MondayMorningHaskell/Parsing/tree/master/test/features) that are written in Gerkhin syntax. Our main objective in this series is to parse each of these files into the Haskell data types described [in this module](https://github.com/MondayMorningHaskell/blob/master/src/Types.hs).
+Our overarching example for this series is [Gherkin Syntax](https://cucumber.io/docs/gherkin). This is a special syntax that allows us to describe a set of test behaviors for our program. We have a few example files you can observe in [this directory](https://github.com/MondayMorningHaskell/Parsing/tree/master/test/features) that are written in Gerkhin syntax. Our main objective in this series is to parse each of these files into the Haskell data types described [in this module](https://github.com/MondayMorningHaskell/Parsing/blob/master/src/Types.hs).
 
 The examples all relate to a fake "banking" application. So you can also observe the expected results in these files:
 
-* [Registration Feature](https://github.com/MondayMorningHaskell/Parsing/blob/master/test/TestRegistartionFeatures.hs)
+* [Registration Feature](https://github.com/MondayMorningHaskell/Parsing/blob/master/test/TestRegistrationFeatures.hs)
 * [Login Feature](https://github.com/MondayMorningHaskell/Parsing/blob/master/test/TestLoginFeatures.hs)
 * [Withdrawal Feature](https://github.com/MondayMorningHaskell/Parsing/blob/master/test/TestWithdrawalFeatures.hs)
 
@@ -32,9 +32,9 @@ We try three different parsing libraries: Applicative Regex Parsing, Attoparsec,
 
 For the 3 primary articles in the series, you can follow along with the code examples and try making changes. You can run the tests to see if you still get the correct results. Just take a look at the proper source module:
 
-* [Part 2](https://mmhaskell.com/parsing/regex) - [RegexParser](https://github.com/MondayMorningHaskell/Parsing/tree/master/blob/src/RegexParser.hs)
-* [Part 3](https://mmhaskell.com/parsing/attoparsec) - [AttoParser](https://github.com/MondayMorningHaskell/Parsing/tree/master/blob/src/AttoParser.hs)
-* [Part 4](https://mmhaskell.com/parsing/megaparsec) - [MegaParser](https://github.com/MondayMorningHaskell/Parsing/tree/master/blob/src/MegaParser.hs)
+* [Part 2](https://mmhaskell.com/parsing/regex) - [RegexParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/blob/src/RegexParser.hs)
+* [Part 3](https://mmhaskell.com/parsing/attoparsec) - [AttoParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/blob/src/AttoParser.hs)
+* [Part 4](https://mmhaskell.com/parsing/megaparsec) - [MegaParser](https://github.com/MondayMorningHaskell/Parsing/blob/master/blob/src/MegaParser.hs)
 
 ## Extending this Project
 
